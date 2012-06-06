@@ -68,17 +68,13 @@ output2allnode_txt = "#Eucalyptus#"+" php:"+str(php)+" java:"+str(java)
 print output2allnode_txt 
 
 
-idlenumber = range(10)
-idlenumber[0] = {"eventName":"euca.cn.java.sum","value":java}
-idlenumber[1] = {"eventName":"euca.cn.java.euca1","value":java1}
-idlenumber[2] = {"eventName":"euca.cn.java.euca2","value":java2}
-#idlenumber[3] = {"eventName":"euca.cn.java.euca3","value":java3}
-#idlenumber[4] = {"eventName":"euca.cn.java.euca4","value":java4}
-idlenumber[5] = {"eventName":"euca.cn.php.sum","value":php}
-idlenumber[6] = {"eventName":"euca.cn.php.euca1","value":php1}
-idlenumber[7] = {"eventName":"euca.cn.php.euca2","value":php2}
-#idlenumber[8] = {"eventName":"euca.cn.php.euca3","value":php3}
-#idlenumber[9] = {"eventName":"euca.cn.php.euca4","value":php4}
+idlenumber = range(6)
+idlenumber[0] = {"eventName":"euca.us.java.sum","value":java}
+idlenumber[1] = {"eventName":"euca.us.java.euca1","value":java1}
+idlenumber[2] = {"eventName":"euca.us.java.euca2","value":java2}
+idlenumber[3] = {"eventName":"euca.us.php.sum","value":php}
+idlenumber[4] = {"eventName":"euca.us.php.euca1","value":php1}
+idlenumber[5] = {"eventName":"euca.us.php.euca2","value":php2}
 
 
 print "idlenumberorigin"
