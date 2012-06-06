@@ -24,10 +24,10 @@ php2 = commands.getstatusoutput(node)[1]
 
 
 #euca1 nm
-node = "/usr/bin/euca-describe-availability-zones verbose |grep m1.xlarge|awk '{print $4}'"
+node = "ssh nm.xingcloud.com /usr/bin/euca-describe-availability-zones verbose |grep m1.xlarge|awk '{print $4}'"
 java1 = commands.getstatusoutput(node)[1]
 
-node = "/usr/bin/euca-describe-availability-zones verbose |grep medium|awk '{print $4}'"
+node = "ssh nm.xingcloud.com /usr/bin/euca-describe-availability-zones verbose |grep medium|awk '{print $4}'"
 php1 = commands.getstatusoutput(node)[1]
 
 
